@@ -1,0 +1,9 @@
+# Testar criação de e-mail na fila
+POST http://localhost:3000/payment-intent
+Content-Type: application/json
+
+{
+  "amount": 1250
+}
+
+###
